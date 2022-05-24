@@ -1,8 +1,10 @@
-# Selection Transformer (selection-transformer)
+# VSCode Selection Transformer
 
-This extension allows you to transform your selections via an evaluated javascript expression.
+This VSCode extension allows you to transform your selections via an evaluated javascript expression.
 
-## How to
+---
+
+## How to use
 
 - Make selection
 
@@ -14,19 +16,30 @@ This extension allows you to transform your selections via an evaluated javascri
 
 > You can access the current selection in the variable `value` and is a string.
 
-### Simple Example:
+---
 
-`value * 2`
+### Simple example:
 
-![Simple](images/simple.gif\)
-
-### Advanced:
-
-```
-value.split(' ').map(x => `"{x}"`).join(', ')
+```javascript
+value * 2;
 ```
 
-![Advanced](images/advanced.gif\)
+![Simple](images/simple.gif)
+
+---
+
+### Advanced example:
+
+```javascript
+value
+  .split(" ")
+  .map((x) => `"{x}"`)
+  .join(", ");
+```
+
+![Advanced](images/advanced.gif)
+
+---
 
 ## Extension Settings
 
