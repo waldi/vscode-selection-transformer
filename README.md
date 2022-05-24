@@ -1,6 +1,8 @@
-# VSCode Selection Transformer
+# 🛠 VSCode Selection Transformer
 
 This VSCode extension allows you to transform your selections via an evaluated javascript expression.
+
+![Simple](images/simple.gif)
 
 ---
 
@@ -18,17 +20,7 @@ This VSCode extension allows you to transform your selections via an evaluated j
 
 ---
 
-### Simple example:
-
-```javascript
-value * 2;
-```
-
-![Simple](images/simple.gif)
-
----
-
-### Advanced example:
+### Example:
 
 ```javascript
 value
