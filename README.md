@@ -2,7 +2,7 @@
 
 This VSCode extension allows you to transform your selections via an evaluated javascript expression.
 
-![Simple](images/simple.gif)
+![Simple](https://github.com/waldi/vscode-selection-transformer/raw/main/images/simple.gif)
 
 ---
 
@@ -29,7 +29,7 @@ value
   .join(", ");
 ```
 
-![Advanced](images/advanced.gif)
+![Advanced](https://github.com/waldi/vscode-selection-transformer/raw/main/images/advanced.gif)
 
 ---
 
